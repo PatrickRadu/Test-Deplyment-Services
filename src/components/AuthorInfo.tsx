@@ -48,8 +48,17 @@ function AuthorInfo() {
   return (
     <div className="author-info">
       <div className="author-header">
-        <h1>I love {author.name}</h1>
-        <p className="author-subtitle">French-Algerian philosopher, author, and journalist</p>
+        <div className="author-photo">
+          <img 
+            src="https://storage.cloud.google.com/bucket-quickstart_static-project-test/newFolder/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pose%CC%81_au_bureau%2C_faisant_face_a%CC%80_gauche%2C_cigarette_de_tabagisme.jpg"
+            alt="Albert Camus - Nobel Prize winner"
+            className="author-portrait"
+          />
+        </div>
+        <div className="author-text">
+          <h1>I love {author.name}</h1>
+          <p className="author-subtitle">French-Algerian philosopher, author, and journalist</p>
+        </div>
       </div>
       
       <div className="author-details">
